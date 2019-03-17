@@ -39,13 +39,19 @@ function Bio() {
             />
 
             <p>
-              <b>WIP!! // </b>
-              <br /> <br /> <br /> <br /> <br />
-              Written by <strong>{author}</strong> who lives and works in London
-              building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <b>Hello!</b> <br />
+              I’m a Brazilian front-end developer living in London. This website
+              features some of my latest projects and my thoughts on anything
+              web related.
+              <br />
+              {` `} You can find me on{" "}
+              <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>,{" "}
+              <a href={`https://instagram.com/${social.instagram}`}>
+                Instagram
+              </a>
+              , and{" "}
+              <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
+                LinkedIn
               </a>
             </p>
           </div>
@@ -69,6 +75,8 @@ const bioQuery = graphql`
         author
         social {
           twitter
+          instagram
+          linkedin
         }
       }
     }

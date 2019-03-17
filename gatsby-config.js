@@ -2,10 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `J. Pedro Ribeiro`,
     author: `J. Pedro Ribeiro`,
-    description: `WIP getting new website live`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Hello! My name is J. Pedro Ribeiro. I’m a Brazilian front-end developer living in London. This website features some of my latest projects and my thoughts on anything web related.`,
+    siteUrl: `https://jpedroribeiro.com/`,
     social: {
       twitter: `jpedroribeiro`,
+      instagram: `joaopedrorib`,
+      linkedin: `joaopedroribeiro`,
     },
   },
   plugins: [
@@ -50,20 +52,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-9307881-2`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `J. Pedro Ribeiro's Personal Site`,
+        short_name: `J. Pedro Ribeiro`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-offline`,
