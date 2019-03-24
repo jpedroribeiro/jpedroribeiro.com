@@ -50,7 +50,8 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build-deploy": "gatsby build && gh-pages -d public -b master -r https://github.com/jpedroribeiro/jpedroribeiro.github.io.git",
+    "add-domain": "echo \"jpedroribeiro.com\" > public/CNAME",
+    "build-deploy": "gatsby build && npm run \"add-domain\" && gh-pages -t -d public -b master -r https://github.com/jpedroribeiro/jpedroribeiro.github.io.git",
     "deploy": "gh-pages -d public -b master -r https://github.com/jpedroribeiro/jpedroribeiro.github.io.git",
     "build": "gatsby build",
     "develop": "gatsby develop",

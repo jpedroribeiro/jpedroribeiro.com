@@ -5,12 +5,28 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions;
 
   // Create redirects
-  createRedirect({
-    fromPath: `/tag/front-end-development/`,
-    isPermanent: true,
-    redirectInBrowser: true,
-    toPath: `/`,
-  });
+  const redirectBatch = [
+    { f: `/blog/`, t: `/` },
+    { f: `/portfolio/`, t: `/` },
+    { f: `/contact/`, t: `/` },
+    { f: `/sideprojects/`, t: `/` },
+    { f: `/tag/front-end-development/`, t: `/` },
+    { f: `/tag/html/`, t: `/` },
+    { f: `/tag/css/`, t: `/` },
+    { f: `/tag/apis/`, t: `/` },
+    { f: `/tag/a11y/`, t: `/` },
+    { f: `/tag/web-design/`, t: `/` },
+    { f: `/tag/http/`, t: `/` },
+    { f: `/tag/typography/`, t: `/` },
+  ];
+  for (var { f: f, t: t } of redirectBatch1) {
+    createRedirect({
+      fromPath: f,
+      redirectInBrowser: true,
+      toPath: t,
+      isPermanent: true,
+    });
+  }
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`);
   return graphql(
