@@ -19,7 +19,7 @@ exports.createPages = ({ graphql, actions }) => {
     { f: `/tag/http/`, t: `/` },
     { f: `/tag/typography/`, t: `/` },
   ];
-  for (var { f: f, t: t } of redirectBatch1) {
+  for (var { f: f, t: t } of redirectBatch) {
     createRedirect({
       fromPath: f,
       redirectInBrowser: true,
