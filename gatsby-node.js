@@ -9,7 +9,7 @@ exports.createPages = ({ graphql, actions }) => {
     { f: `/blog/`, t: `/` },
     { f: `/portfolio/`, t: `/` },
     { f: `/contact/`, t: `/` },
-    { f: `/sideprojects/`, t: `/` },
+    { f: `/sideprojects/`, t: `https://github.com/jpedroribeiro` },
     { f: `/tag/front-end-development/`, t: `/` },
     { f: `/tag/html/`, t: `/` },
     { f: `/tag/css/`, t: `/` },

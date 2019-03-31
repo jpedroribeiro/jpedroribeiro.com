@@ -41,8 +41,15 @@ function Bio() {
             <p>
               <b>Hello!</b> <br />
               I’m a Brazilian front-end developer living in London. This website
-              features some of my latest projects and my thoughts on anything
-              web related.
+              features some of my{" "}
+              <a
+                href="https://github.com/jpedroribeiro"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                latest projects
+              </a>{" "}
+              and my thoughts on anything web related.
               <br />
               {` `} You can find me on{" "}
               <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>,{" "}
