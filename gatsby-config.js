@@ -44,6 +44,17 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              providers: {
+                include: ["Instagram"],
+                settings: {
+                  Instagram: { hidecaption: true, maxwidth: 400 },
+                },
+              },
+            },
+          },
         ],
       },
     },
