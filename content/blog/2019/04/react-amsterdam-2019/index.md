@@ -1,6 +1,7 @@
 ---
 title: "React Amsterdam 2019"
 date: "2019-04-14"
+tags: ["react", "amsterdam", "graphql", "conference"]
 ---
 
 This weekend I had the privilege to attend the biggest ReactJS conference in the world - [React Amsterdam](https://react.amsterdam/).

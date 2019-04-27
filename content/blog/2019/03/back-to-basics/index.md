@@ -1,6 +1,7 @@
 ---
 title: "Back to Basics"
 date: "2019-03-30"
+tags: ["opinion", "react", "gatsby"]
 ---
 
 It's been a long time since I wrote anything on this site. So, as any web developer would do, I decided to rewrite the whole site instead.

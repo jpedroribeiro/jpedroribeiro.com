@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql, Link } from "gatsby";
 import Image from "gatsby-image";
 
 import { rhythm } from "../utils/typography";
@@ -49,7 +49,7 @@ function Bio() {
               >
                 latest projects
               </a>{" "}
-              and my thoughts on anything web related.
+              and <Link to="/tags/">my thoughts</Link> on anything web related.
               <br />
               {` `} You can find me on{" "}
               <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>,{" "}
@@ -60,6 +60,7 @@ function Bio() {
               <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
                 LinkedIn
               </a>
+              .
             </p>
           </div>
         );
