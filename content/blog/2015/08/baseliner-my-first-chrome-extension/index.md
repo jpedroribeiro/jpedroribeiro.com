@@ -2,6 +2,7 @@
 title: "Baseliner: My First Chrome Extension"
 date: "2015-08-30"
 coverImage: "baseliner.png"
+tags: ["extension", "browser", "baseliner"]
 ---
 
 ![Baseliner in action](images/baseliner-300x187.png) I've build a small tool a while ago to help me align elements on a page and keep the baseline consistent. It adds a customisable horizontal grid layer on top of any site whilst keeping the background content usable.

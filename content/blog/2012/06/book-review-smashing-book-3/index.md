@@ -2,6 +2,7 @@
 title: "Book Review: Smashing Book 3"
 date: "2012-06-20"
 coverImage: "smashing-book-3_2.png"
+tags: ["book review"]
 ---
 
 ![Book Review: Smashing Book 3](images/smashing-book-3_2.png "smashing-book-3")

@@ -1,6 +1,7 @@
 ---
 title: "Vertically Centering Images with HTML & CSS"
 date: "2012-08-03"
+tags: ["css", "html", "techniques"]
 ---
 
 Here is a quick trick whenever you need to **vertically centre an image** (or paragraph, or any other element) inside its parent container: treat them like **tables**. That's right.
@@ -9,13 +10,13 @@ By setting the parent element's display type to `table` and the child element to
 
 ## HTML
 
- <div>
+<div>
   <p>Centred element</p>
  </div>
 
 ## CSS
 
-  div {display: table; height: 100px}
+div {display: table; height: 100px}
   p {display: table-cell; vertical-align: middle;}
 
 Depending on your site structure, that parent tag could be **non-semantic** but it's a price to pay! Also, you got to set a **fixed height** to this parent element.

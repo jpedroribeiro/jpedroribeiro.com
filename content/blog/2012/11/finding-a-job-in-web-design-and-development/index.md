@@ -1,9 +1,10 @@
 ---
 title: "Finding a job in web design and development"
 date: "2012-11-18"
+tags: ["opinion"]
 ---
 
-Searching for a new job is a stressful and time-consuming task. When I moved to London a couple of months ago I had this experience once again and I was overwhelmed by the amount of online resources to "help" candidates find a perfect job. I was lucky enough to find an [awesome](http://www.vouchercodes.co.uk) place to work and during the process I learn a [few tricks]( http://jpedroribeiro.com/2012/11/finding-a-job-in-web-design-and-development) that can make this task easier.
+Searching for a new job is a stressful and time-consuming task. When I moved to London a couple of months ago I had this experience once again and I was overwhelmed by the amount of online resources to "help" candidates find a perfect job. I was lucky enough to find an [awesome](http://www.vouchercodes.co.uk) place to work and during the process I learn a [few tricks](http://jpedroribeiro.com/2012/11/finding-a-job-in-web-design-and-development) that can make this task easier.
 
 ## Set up a search on Twitter and keep yourself updated
 

@@ -2,6 +2,7 @@
 title: "Understanding Bandwidth vs Latency Through An Analogy"
 date: "2016-05-14"
 coverImage: "road.jpg"
+tags: ["performance", "latency", "bandwidth"]
 ---
 
 ![road](images/road-1024x683.jpg)

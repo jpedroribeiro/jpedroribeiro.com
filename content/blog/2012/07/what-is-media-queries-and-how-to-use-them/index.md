@@ -2,6 +2,7 @@
 title: "What Is Media Queries And How To Use Them"
 date: "2012-07-07"
 coverImage: "mediaqueries-main.jpg"
+tags: ["css"]
 ---
 
 ![What Is Media Queries And How To Use Them](images/mediaqueries-main.jpg "mediaqueries-main")
@@ -28,7 +29,7 @@ So, the code I use is the following:
 <link rel="stylesheet" media="only screen and (min-width: 320px) and (max-width: 767px)" 
     href="/mobile.css">  
 <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width: 978px)" 
-    href="/tablet.css"> 
+    href="/tablet.css">
 
 **First line** is the basic stylesheet, the one loaded for most screen sizes. On the **second line** things start to get interesting. On the attribute _media_ I'm specifying a screen size range that fits most mobile, hence the filename "mobile.css". The **third line** follows the same logic, this time for tablets (or netbooks).
 
@@ -44,7 +45,7 @@ Since the lines are going to be read in order, the browser will the stylesheet w
 
 If you prefer to use only **one css file** to avoid multiple HTTP requests and [speed up your site](http://jpedroribeiro.com/2009/09/3-image-techniques-to-speed-up-your-website/ "3 Image Techniques To Speed Up Your Website"), you can apply the Media Queries rule directly on the stylesheet:
 
-@media (min-width: 320px) and (max-width: 767px) { /\* Insert CSS code here  \*/}
+@media (min-width: 320px) and (max-width: 767px) { /\* Insert CSS code here \*/}
 
 ## Mobile First
 

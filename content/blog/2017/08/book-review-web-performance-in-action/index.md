@@ -2,6 +2,7 @@
 title: "Book Review: Web Performance In Action"
 date: "2017-08-20"
 coverImage: "Wagner-WebP-HI.jpg"
+tags: ["book review", "performance"]
 ---
 
 For the past 2 years, my work has had a focus on delivering **fast experiences** on the web. I've also kept an eye on any article, tweet or [Meetup](https://www.meetup.com/London-Web-Performance-Group/) that would mention performance. It was a job requirement back then, now it's something I'm quite passionate about.

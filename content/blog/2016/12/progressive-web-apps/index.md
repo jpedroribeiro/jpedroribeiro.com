@@ -1,6 +1,7 @@
 ---
 title: "Progressive Web Apps"
 date: "2016-12-29"
+tags: ["pwa", "offline", "performance"]
 ---
 
 In the past couple of months I've been reading quite a lot about Progressive Web Apps. The term is getting very popular especially due to Google's effort and investment in the concept.

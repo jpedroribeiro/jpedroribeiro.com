@@ -2,9 +2,10 @@
 title: "Book Review: Expert JavaScript"
 date: "2014-10-26"
 coverImage: "expert.jpg"
+tags: ["book review", "javascript"]
 ---
 
-[![](images/expert.jpg)](http://jpedroribeiro.com/2014/10/book-review-expert-javascript/ )
+[![](images/expert.jpg)](http://jpedroribeiro.com/2014/10/book-review-expert-javascript/)
 
 Being a frontend developer means not only knowing your tools pretty well but also understanding how and why they behave the way they do. JavaScript is a language that is very easy to get started but is actually more complex than it looks. That's the approach of Mark Daggett on the book [Expert JavaScript](http://markdaggett.com/blog/2013/11/28/introducing-expert-javascript/).
 

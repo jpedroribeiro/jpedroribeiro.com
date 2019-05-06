@@ -1,6 +1,7 @@
 ---
 title: "Compromise - Balancing Project Needs with Internal Ideals"
 date: "2016-02-20"
+tags: ["opinion"]
 ---
 
 Every new project is a new opportunity. It's when you use your past **experience** and have the chance to build something better than you did some weeks ago. It's also the time to use what you learned recently, that new approach that can optimise your solution. Or even that **framework** that everybody is talking about.

@@ -1,6 +1,7 @@
 ---
 title: "Aggregating Google Analytics Browser Statistics with r2d2"
 date: "2016-03-27"
+tags: ["analytics", "nodejs", "tracking", "browser"]
 ---
 
 I love **Google Analytics** but the browser usage stats always annoyed me. Since modern, evergreen browsers release features very frequently, you end up having to combine multiple entries into one in order to get a more usable data. For example, when identifying the users on Chrome, I really don't care how many of them are on Chrome 48 vs 49, I only care if they are on Chrome.

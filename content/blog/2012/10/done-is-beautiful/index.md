@@ -1,6 +1,7 @@
 ---
 title: "Done Is Beautiful"
 date: "2012-10-14"
+tags: ["opinion"]
 ---
 
 Side projects are important for every professional. It takes your mind away from day-to-day work and let you explore and go further without the usual constraints. For **web professionals** it usually means using brand new technology either to learn or to build something for the community to see.

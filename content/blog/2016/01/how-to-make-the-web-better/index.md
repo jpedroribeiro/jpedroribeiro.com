@@ -1,6 +1,7 @@
 ---
 title: "How to Make the Web Better"
 date: "2016-01-29"
+tags: ["opinion"]
 ---
 
 ![The Shift](images/post-image_The-Shift_color.jpg) When [#startYourShift](https://twitter.com/hashtag/startyourshift) asked us to write about **how to make the web better** I could not help but think about my own journey on the web.

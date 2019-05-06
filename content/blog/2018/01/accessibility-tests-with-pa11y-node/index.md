@@ -1,6 +1,7 @@
 ---
 title: "Accessibility Tests with Pa11y & Node"
 date: "2018-01-10"
+tags: ["a11y", "accessibility", "nodejs"]
 ---
 
 In this article I'm going to show you how to automate your accessibility testing with just a little amount of JavaScript and a great library.
@@ -41,9 +42,9 @@ Pa11y provides a **JavaScript interface** that lets us write node scripts to cre
 
 const pa11y = require('pa11y');
 pa11y('http://www.google.com/')
-  .then((results) => { 
-    console.log(results);
-  });
+.then((results) => {
+console.log(results);
+});
 
 \- Now run it on your terminal `$ node a11y.js`
 
@@ -55,16 +56,16 @@ Now let's try testing multiple pages.
 
 const pa11y = require('pa11y');
 const urls = \[
-    pa11y('http://www.google.com'),
-    pa11y('http://www.bbc.co.uk'),
-    // Add more pages here as needed
+pa11y('http://www.google.com'),
+pa11y('http://www.bbc.co.uk'),
+// Add more pages here as needed
 \];
 
 Promise.all(urls)
-  .then(results => {
-    console.log(results\[0\]); // Results for Google
-    console.log(results\[1\]); // Results for BBC
-  });
+.then(results => {
+console.log(results\[0\]); // Results for Google
+console.log(results\[1\]); // Results for BBC
+});
 
 You can cater for each page individually, or you could just **loop through** the `results` array.
 
@@ -81,14 +82,14 @@ As before, the `-g` is optional. With that done, we need to change our code to t
 const pa11y = require('pa11y');
 const html = require('pa11y-reporter-html');
 const urls = \[
-  pa11y('http://www.google.com'),
-  pa11y('http://www.bbc.co.uk')
+pa11y('http://www.google.com'),
+pa11y('http://www.bbc.co.uk')
 \];
 
 Promise.all(urls)
-  .then(results => {
-    const googleResults = html.results(results\[0\]);
-    const bbcResults = html.results(results\[1\]);
+.then(results => {
+const googleResults = html.results(results\[0\]);
+const bbcResults = html.results(results\[1\]);
 
     googleResults
       .then(output => {
@@ -99,7 +100,8 @@ Promise.all(urls)
       .then(output => {
         console.log(output)
       });
-  });
+
+});
 
 If you run that, `$ node a11y.js` you will get the output of each test in HTML format. With that content in hands, you can always use it to save into a file using `fs.createWriteStream`.
 

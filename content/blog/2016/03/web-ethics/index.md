@@ -1,6 +1,7 @@
 ---
 title: "Web Ethics"
 date: "2016-03-20"
+tags: ["opinion", "ethics"]
 ---
 
 Once again [Start Your Shift](https://twitter.com/hashtag/startYourShift) brought me another puzzling topic to write about: Web Ethics.

@@ -1,6 +1,7 @@
 ---
 title: "Web Education"
 date: "2016-04-23"
+tags: ["opinion", "education"]
 ---
 
 It's Sunday morning. I've just read some articles on [CSS](http://jpedroribeiro.com/tag/css/) and for some reason started browsing Stack Overflow on that subject, specifically on the [unanswered questions page](http://stackoverflow.com/unanswered/tagged/css). Clicked a few links, answered a couple questions. Got some nice **feedback**.

@@ -1,6 +1,7 @@
 ---
 title: "Book Review: Using WebPageTest"
 date: "2016-08-29"
+tags: ["book review", "performance"]
 ---
 
 You can't start talking about **performance** without hearing about [WebPageTest](https://www.webpagetest.org/). It's by far the most complex and useful synthetic tool available these days. I've been using it for quite some time and decided to brush up my knowledge by [reading](http://jpedroribeiro.com/category/book-reviews/) [Using WebPageTest](http://shop.oreilly.com/product/0636920033592.do), by O'Reily Media.

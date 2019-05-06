@@ -2,6 +2,7 @@
 title: "Thoughts on Front-end Tooling"
 date: "2016-02-28"
 coverImage: "choices-1.jpg"
+tags: ["frontend", "tools"]
 ---
 
 ![choices](images/choices-1.jpg) Being a front-end developer means keeping up with current trends. It doesn't mean you have to master them all, however you are expected to know what's available. It's a tough job.

@@ -2,6 +2,7 @@
 title: "Book Review: The Mobile Book"
 date: "2012-12-25"
 coverImage: "The_Cover.png"
+tags: ["book review"]
 ---
 
 [![](images/The_Cover-300x300.png "The_Cover")](http://jpedroribeiro.com/wp-content/uploads/2012/12/The_Cover.png)

@@ -1,6 +1,7 @@
 ---
 title: "Fun with Browser APIs: Shape Detection"
 date: "2018-02-03"
+tags: ["shape", "API", "detection", "browser", "barcode", "faces", "feed"]
 ---
 
 This is the second instalment of [Fun with Browser APIs](http://jpedroribeiro.com/tag/apis/), and today I'm going to talk about [Shape Detection](https://wicg.github.io/shape-detection-api/#api).
@@ -30,11 +31,11 @@ In this article I'm focusing on detecting faces. The `FaceDetector` constructor 
 This can be achieved by doing the following:
 
 var faceDetector = new FaceDetector();
-  faceDetector
-    .detect(myImageElement)
-    .then(faces => {
-       console.log(faces);
-    });
+faceDetector
+.detect(myImageElement)
+.then(faces => {
+console.log(faces);
+});
 
 In this example, `faces` is a list of recognized faces. Each face comes with dimensions, coordinates and landmarks. According to the spec, landmarks can be either eyes or mouth, and each landmark object comes with its own coordinates.
 
@@ -54,20 +55,20 @@ Here is how:
 
 // #1 Start live feed
 navigator
-  .mediaDevices
-  .getUserMedia({ video: true, audio: false })
-  .then(mediaStream => {
-    window.myVideoElement.srcObject = mediaStream;
-  });
+.mediaDevices
+.getUserMedia({ video: true, audio: false })
+.then(mediaStream => {
+window.myVideoElement.srcObject = mediaStream;
+});
 
 // #2 Captures faces and display them in the browser console
 function faceDetectorLoop() {
-  faceDetector
-    .detect(window.myVideoElement)
-    .then((faces) => {
-      console.log(faces);
-      window.requestAnimationFrame(faceDetectorLoop); // Loops detection
-    });
+faceDetector
+.detect(window.myVideoElement)
+.then((faces) => {
+console.log(faces);
+window.requestAnimationFrame(faceDetectorLoop); // Loops detection
+});
 }
 
 // #3 Run

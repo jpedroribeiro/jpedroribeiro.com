@@ -1,6 +1,7 @@
 ---
 title: "Being a Technical Book Reviewer"
 date: "2015-07-05"
+tags: ["opinion", "book review"]
 ---
 
 A couple months ago I was approached by a book publishing company. They found this website through one of my [book review posts](http://jpedroribeiro.com/category/book-reviews/) and wanted me to be part of the **technical review** team of a new book they are releasing.

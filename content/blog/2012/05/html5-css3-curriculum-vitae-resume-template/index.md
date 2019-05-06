@@ -2,6 +2,7 @@
 title: "HTML5 & CSS3 Curriculum Vitae (Résumé) Template"
 date: "2012-05-09"
 coverImage: "html-cv.png"
+tags: ["html", "css", "curriculum"]
 ---
 
 ![](images/html-cv.png "HTML5 & CSS3 Curriculum Vitae (Résumé) Template")

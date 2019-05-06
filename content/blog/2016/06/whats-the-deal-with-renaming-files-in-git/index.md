@@ -1,9 +1,10 @@
 ---
 title: "What's the deal with renaming files in Git?"
 date: "2016-06-11"
+tags: ["git"]
 ---
 
-If you try **renaming** a file in your project, you might notice this weird behaviour when checking its **status**: `$ git status On branch master Your branch is up-to-date with 'origin/master'.
+If you try **renaming** a file in your project, you might notice this weird behaviour when checking its **status**: `\$ git status On branch master Your branch is up-to-date with 'origin/master'.
 
 Changes not staged for commit: (use "git add/rm ..." to update what will be committed) (use "git checkout -- ..." to discard changes in working directory)
 

@@ -1,6 +1,7 @@
 ---
 title: "Workflow: From Design to the Browser"
 date: "2015-10-04"
+tags: ["walkthrough"]
 ---
 
 What is the best way to code a design piece to the browser? Lately, I've been questioning myself if the process I use is the proper one or if there are better alternatives. It's more of a rhetorical question as there are hundreds different ways you can code for the web.
