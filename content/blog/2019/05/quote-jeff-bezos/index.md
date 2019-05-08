@@ -2,6 +2,7 @@
 title: "Quote #1"
 date: "2019-05-06"
 tags: ["quotes"]
+excerpt: "“If you absolutely can't tolerate critics, then don't do anything new or interesting.” — Jeff Bezos"
 ---
 
 > “If you absolutely can't tolerate critics, then don't do anything new or interesting.”
