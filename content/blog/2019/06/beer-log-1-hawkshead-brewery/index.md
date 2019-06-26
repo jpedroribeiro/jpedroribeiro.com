@@ -22,7 +22,7 @@ We arrived at the taproom after hiking for hours (have I mentioned Helvellyn?), 
 
 https://www.instagram.com/p/BwfKURulqKK/
 
-> **Bay of Dreams** is an american style _wheat beer_ with roasted citrus fruits and fresh bay leaves.
+<div class="highlight"><strong>Bay of Dreams</strong> is an american style <i>wheat beer</i> with roasted citrus fruits and fresh bay leaves.</div>
 
 It was everything we needed. At 4.5% ABV, it is very drinkable, has great body and mouthfeel, slightly hazy (check the picture above) and has just about the right amount of fruit/citrus notes.
 
