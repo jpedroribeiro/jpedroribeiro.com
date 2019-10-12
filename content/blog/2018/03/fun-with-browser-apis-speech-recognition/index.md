@@ -1,7 +1,7 @@
 ---
 title: "Fun with Browser APIs: Speech Recognition"
 date: "2018-03-04"
-tags: ["speech", "API", "recognition", "browser", "transcript", "grammar"]
+tags: ["speech", "api", "recognition", "browser", "transcript", "grammar"]
 ---
 
 On this third post about [browser APIs](http://jpedroribeiro.com/tag/apis/) we're gonna talk about audio, or more specifically, speech. The [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) is compromised of two interfaces, and today we're going to talk about one of them: [Speech Recognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition).

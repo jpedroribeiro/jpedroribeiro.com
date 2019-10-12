@@ -1,7 +1,7 @@
 ---
 title: "Fun with Browser APIs: Media Stream Image Capture"
 date: "2018-01-26"
-tags: ["image capture", "API", "stream", "media", "flash", "feed", "camera"]
+tags: ["image capture", "api", "stream", "media", "flash", "feed", "camera"]
 ---
 
 **Fun with Browser APIs** is a series of [posts](http://jpedroribeiro.com/Blog/) in which I introduce one or more APIs that you might not heard about or used.

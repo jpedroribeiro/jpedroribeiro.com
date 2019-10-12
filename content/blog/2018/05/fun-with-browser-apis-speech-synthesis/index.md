@@ -1,7 +1,7 @@
 ---
 title: "Fun with Browser APIs: Speech Synthesis"
 date: "2018-05-09"
-tags: ["speech", "API", "synthesis"]
+tags: ["speech", "api", "synthesis"]
 ---
 
 On the previous post, I showed how you can use the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) to translate _speech to text_ using Speech Recognition. Today, I'm going to talk about the the API's other interface: [Speech Synthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis).

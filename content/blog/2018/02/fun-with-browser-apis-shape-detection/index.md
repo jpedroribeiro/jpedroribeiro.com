@@ -1,7 +1,7 @@
 ---
 title: "Fun with Browser APIs: Shape Detection"
 date: "2018-02-03"
-tags: ["shape", "API", "detection", "browser", "barcode", "faces", "feed"]
+tags: ["shape", "api", "detection", "browser", "barcode", "faces", "feed"]
 ---
 
 This is the second instalment of [Fun with Browser APIs](http://jpedroribeiro.com/tag/apis/), and today I'm going to talk about [Shape Detection](https://wicg.github.io/shape-detection-api/#api).
