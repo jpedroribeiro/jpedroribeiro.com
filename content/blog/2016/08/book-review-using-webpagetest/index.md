@@ -12,7 +12,9 @@ The book says clearly on the cover: "...for novices and power users" so you've b
 
 ## Hidden complexity
 
-With that in mind, the advanced parts of the books are quite good. I was not fully aware of the **script** capabilities of WPT. The fact that you can give instructions to it and **simulate** a navigation flow is very powerful. You can simulate a login scenario by doing the following: `navigate http://www.example.com/login setValue id=u username setValue ud=p password submitForm id=login-form navigate http://www.example.com/profile/username`
+With that in mind, the advanced parts of the books are quite good. I was not fully aware of the **script** capabilities of WPT. The fact that you can give instructions to it and **simulate** a navigation flow is very powerful. You can simulate a login scenario by doing the following: 
+
+    navigate http://www.example.com/login setValue id=u username setValue ud=p password submitForm id=login-form navigate http://www.example.com/profile/username
 
 Other highlights include a full chapter on Continuous Integration, with plenty of examples on how to setup WPT and Jenkins or Travis, or how to setup a private instance of WPT - which I [struggled to achieve](https://twitter.com/jpedroribeiro/status/766623046471942144) a couple weeks ago!
 
