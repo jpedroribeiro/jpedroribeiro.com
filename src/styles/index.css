@@ -7,6 +7,14 @@
   color: #1c1c1c;
 }
 
+.beer-rating {
+  font-size: 14px;
+}
+
+.beer-rating span {
+  font-size: 16px;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #f5f5f5;
