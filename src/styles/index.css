@@ -15,6 +15,11 @@
   font-size: 16px;
 }
 
+ul,
+ol {
+  margin-left: 1.75rem;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #f5f5f5;
