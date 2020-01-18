@@ -1,9 +1,8 @@
 ---
-title: "Get a nested property of an object with dot notation"
+title: "Getting a nested property of an object with dot notation"
 date: "2020-01-18"
 tags: ["nested properties", "dot notation", "javascript"]
 ---
-
 Let's say you have a JSON file with your data. You parse it into an object literal:
 
       const myObject = {
