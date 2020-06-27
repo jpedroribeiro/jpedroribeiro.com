@@ -1,5 +1,5 @@
 ---
-title: "Tech Review for Responsive Web Design 3rd Ed"
+title: "Tech Review for Responsive Web Design 3rd Edition"
 date: "2020-06-27"
 tags: ["tech review", "book review"]
 ---
