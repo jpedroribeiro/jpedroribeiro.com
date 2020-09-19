@@ -61,6 +61,8 @@ function Bio() {
                 LinkedIn
               </a>
               .
+              <br/>
+              Wanna talk? <a href={"/contact/"}>Send me a message</a>.
             </p>
           </div>
         );

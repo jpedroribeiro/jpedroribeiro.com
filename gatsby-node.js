@@ -9,7 +9,6 @@ exports.createPages = ({ graphql, actions }) => {
   const redirectBatch = [
     { f: `/blog/`, t: `/` },
     { f: `/portfolio/`, t: `/` },
-    { f: `/contact/`, t: `/` },
     { f: `/sideprojects/`, t: `https://github.com/jpedroribeiro` },
     { f: `/tag/front-end-development/`, t: `/` },
     { f: `/tag/html/`, t: `/` },
@@ -31,6 +30,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`);
   const tagTemplate = path.resolve(`./src/templates/tag.js`);
+  const contactTemplate = path.resolve(`./src/pages/contact.js`);
 
   return graphql(
     `
@@ -97,6 +97,11 @@ exports.createPages = ({ graphql, actions }) => {
           tag,
         },
       });
+    });
+
+    createPage({
+      path: `/contact/`,
+      component: contactTemplate,
     });
 
     return null;

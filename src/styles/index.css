@@ -39,6 +39,34 @@ ol {
   }
 }
 
+.contact label {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  display: block;
+}
+
+.contact input,
+.contact textarea {
+  margin-bottom: 20px;
+  width: 350px;
+  display: block;
+}
+
+.contact button {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background: #e7a91d;
+  border: none;
+  width: 150px;
+}
+
+.contact .success {
+  color: lightgreen;
+}
+
+.contact .error {
+  color: lightcoral;
+}
 
 /*
 
