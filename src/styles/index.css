@@ -102,7 +102,7 @@ ol {
  * Remove the default PrismJS theme background-color, border-radius, margin,
  * padding and overflow.
  * 1. Make the element just wide enough to fit its content.
- * 2. Always fill the visible space in .gatsby-highlight.
+ * 02. Always fill the visible space in .gatsby-highlight.
  * 3. Adjust the position of the line numbers
  */
 .gatsby-highlight pre[class*="language-"] {
@@ -111,7 +111,7 @@ ol {
   padding: 0;
   overflow: initial;
   float: left; /* 1 */
-  min-width: 100%; /* 2 */
+  min-width: 100%; /* 02 */
 }
 
 /* Adjust the position of the line numbers */
