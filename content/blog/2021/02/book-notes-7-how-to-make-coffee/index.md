@@ -4,11 +4,11 @@ date: "2021-02-21"
 tags: ["book notes", "coffee"]
 ---
 
- <p><img alt="Book cover" src="/images/cover.jpeg"/></p>
- 
- Short and sweet. A quick read that goes straight to the point.
- 
- A **4-star** rating on [my GoodReads](https://www.goodreads.com/user/show/3186522-j-pedro-ribeiro).
+![How to Make Coffee Book Cover](./images/cover.jpeg)
+
+Short and sweet. A quick read that goes straight to the point.
+
+A **4-star** rating on [my GoodReads](https://www.goodreads.com/user/show/3186522-j-pedro-ribeiro).
 
 Here are my _highlights_:
 
