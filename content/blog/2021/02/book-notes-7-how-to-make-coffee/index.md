@@ -1,5 +1,5 @@
 ---
-title: "Book Notes #6: How to Make Coffee: The Science Behind the Bean"
+title: "Book Notes #7: How to Make Coffee: The Science Behind the Bean"
 date: "2021-02-21"
 tags: ["book notes", "coffee"]
 ---
