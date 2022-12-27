@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 // Utilities
 import kebabCase from "lodash/kebabCase";
@@ -23,7 +23,7 @@ class TagsPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={title}>
-        <SEO title={thisTitle} />
+        <Seo title={thisTitle} />
         <h1>List of all tags</h1>
         <ul>
           {group.map(tag => (
@@ -49,7 +49,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: {frontmatter: {tags: SELECT}}) {
         fieldValue
         totalCount
       }

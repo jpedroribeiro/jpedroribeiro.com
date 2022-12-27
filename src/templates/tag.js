@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const TagTemplate = props => {
   const { pageContext, data } = props;
@@ -17,7 +17,7 @@ const TagTemplate = props => {
 
   return (
     <Layout location={`/tag/${tag}/`} title={title}>
-      <SEO title={thisTitle} />
+      <Seo title={thisTitle} />
       <h1>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
@@ -51,8 +51,8 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      sort: {frontmatter: {date: DESC}}
+      filter: {frontmatter: {tags: {in: [$tag]}}}
     ) {
       totalCount
       edges {

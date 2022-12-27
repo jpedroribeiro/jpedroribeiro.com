@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 import { graphql } from "gatsby";
 
@@ -28,7 +28,7 @@ class ContactPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={title}>
-        <SEO title={thisTitle} />
+        <Seo title={thisTitle} />
         <h1>Send your message:</h1>
         <form
           onSubmit={this.submitForm}
@@ -36,11 +36,11 @@ class ContactPage extends React.Component {
           method="POST"
           className={"contact"}
         >
-          <label>Name:</label>
+          <label htmlFor={"name"}>Name:</label>
           <input type="text" name="name" required />
-          <label>Email:</label>
+          <label htmlFor={"email"}>Email:</label>
           <input type="email" name="email" required />
-          <label>Message:</label>
+          <label htmlFor={"message"}>Message:</label>
           <textarea name="message" rows={5} required />
           {status === "SUCCESS" ? (
             <p className={"success"}>Thanks!</p>

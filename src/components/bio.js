@@ -7,7 +7,7 @@
 
 import React from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
-import Image from "gatsby-image";
+import { StaticImage } from "gatsby-plugin-image"
 
 import { rhythm } from "../utils/typography";
 
@@ -24,8 +24,14 @@ function Bio() {
               marginBottom: rhythm(2.5),
             }}
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
+            <StaticImage
+              className="bio-avatar"
+              layout="fixed"
+              formats={["auto", "webp", "avif"]}
+              src="../images/profile-pic.jpg"
+              width={50}
+              height={50}
+              quality={95}
               alt={author}
               style={{
                 marginRight: rhythm(1 / 2),
