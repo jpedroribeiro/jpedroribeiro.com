@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `J. Pedro Ribeiro`,
     author: `J. Pedro Ribeiro`,
-    description: `Hello! My name is J. Pedro Ribeiro. I’m a Brazilian front-end developer living in London. This website features some of my latest projects and my thoughts on anything web related.`,
+    description: `Hello! My name is J. Pedro Ribeiro. I’m a Brazilian frontend developer living in London. This website features some of my latest projects and my thoughts on anything web related.`,
     siteUrl: `https://jpedroribeiro.com/`,
     social: {
       twitter: `jpedroribeiro`,
