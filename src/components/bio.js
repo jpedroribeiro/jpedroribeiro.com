@@ -46,7 +46,7 @@ function Bio() {
 
             <p>
               <b>Hello!</b> <br />
-              I’m a Brazilian front-end developer living in London. This website
+              I’m a Brazilian frontend developer living in London. This website
               features some of my{" "}
               <a
                 href="https://github.com/jpedroribeiro"
