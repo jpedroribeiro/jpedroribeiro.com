@@ -1,3 +1,7 @@
+@view-transition {
+  navigation: auto;
+}
+
 .highlight {
   padding: 18px;
   border-radius: 8px;
